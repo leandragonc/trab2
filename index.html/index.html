@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova - Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>TechNova</h1>
+        <p>Os melhores eletrônicos em um só lugar</p>
+    </header>
+
+    <nav class="menu-sticky">
+        <a href="#venda">Venda</a>
+        <a href="#cadastro">Cadastro</a>
+    </nav>
+
+    <main>
+        <section id="venda" class="secao">
+            <h2>Ofertas Especiais</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="css/img1.jpg" alt="Notebook">
+                    <h3>Notebook Dell Latitude 5450, Ultra 7 165U vPro®, 16GB, SSD M.2 512GB, Win11 Pro, 210-BMPR-NBLAT89</h3>
+                    <p>R$ 3.499,00</p>
+                </div>
+                <div class="produto">
+                    <img src="css/img2.jpg" alt="Smartphone">
+                    <h3>Samsung Galaxy Z Fold 4 256GB Preto + Brinde</h3>
+                    <p>R$ 2.199,00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cadastro" class="secao">
+            <h2>Cadastro de Usuário</h2>
+            <div class="form-container">
+                <form action="#" method="post" class="form-cadastro">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="password" id="senha" name="senha" class="form-control" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmar-senha" class="form-label">Confirmar Senha</label>
+                        <input type="password" id="confirmar-senha" name="confirmar-senha" class="form-control" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" class="form-control" placeholder="Digite seu telefone" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>TechNova</h4>
+                <p>Eletrônicos de qualidade com os melhores preços. Sua satisfação é a nossa prioridade.</p>
+            </div>
+            <div class="footer-col">
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>Email: contato@technova.com</p>
+                <p>Telefone: (53) 99999-9999</p>
+                <p>Endereço: Rua Exemplo, 123 - Rio Grande/RS</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2025 TechNova. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
