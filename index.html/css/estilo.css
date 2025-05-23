@@ -88,10 +88,3 @@ header {
 .footer-col {
     margin: 10px;
 }
-
-@media (max-width: 768px) {
-    .produtos-container {
-        flex-direction: column;
-        align-items: center;
-    }}
-
